@@ -1,4 +1,4 @@
-package com.app.contactbookapp;
+package com.app.contactbookapp.Activty;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.app.contactbookapp.DBHelper;
+import com.app.contactbookapp.R;
 
 public class MainActivity extends AppCompatActivity {
     EditText editname, editnumber;

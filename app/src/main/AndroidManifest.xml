@@ -13,10 +13,10 @@
         android:theme="@style/Theme.ContactBookApp"
         tools:targetApi="31">
         <activity
-            android:name=".Contact_ListActivity"
+            android:name=".Activty.Contact_ListActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activty.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package com.app.contactbookapp;
+package com.app.contactbookapp.Activty;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
 
+import com.app.contactbookapp.R;
+import com.app.contactbookapp.user;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -26,13 +28,15 @@ public class Contact_ListActivity extends AppCompatActivity
         findViewById(R.id.fab).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Contact_ListActivity.this,MainActivity.class);
+                Intent intent=new Intent(Contact_ListActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
     }
 
-    private void getData() {
+    private void getData()
+    {
+
     }
 }
