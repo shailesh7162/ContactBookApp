@@ -25,9 +25,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnsub"
+        android:id="@+id/btnadd"
         android:layout_margin="@dimen/_5sdp"
-        android:hint="Submit"
+        android:hint="Add"
         android:layout_weight="1"
         />
     <Button
